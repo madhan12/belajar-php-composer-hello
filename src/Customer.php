@@ -8,7 +8,7 @@ class Customer
         
     }
     
-    public function sayHello(string $name):string
+    public function sayHello(string $name="GUEST"):string
     {
         return "Hy $name, My name is $this->name";
     }
